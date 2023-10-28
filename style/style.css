@@ -1,0 +1,81 @@
+* {
+    border:0;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Street Fighter 6', sans-serif;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-area: 
+    "Header" 
+    "main";
+    /* grid-template-columns: 5rem; */
+    /* colums mexe na coluna  */
+    grid-template-rows: 50px 1fr; 
+    /*rolls mexe nas linhas */
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+.header {
+    display: grid;
+    grid-template-columns: 37rem 50rem 10fr;
+}
+.logo {
+    background-image: url(../img/logo.png);
+    background-size: 15rem;
+    background-position: center;
+    background-repeat:no-repeat;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hud-cima {
+    display: flex;
+}
+.hud-cima ul {
+    list-style: none;
+    display: flex;
+    
+}
+.hud-cima ul li{
+    color: #fff;
+    width: 10rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogar button {
+    height: 4.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-rows:25rem 1fr ;
+}
+.tittle {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    color: #fff;
+    font-size: 12rem;
+}
+
