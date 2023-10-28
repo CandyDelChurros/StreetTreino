@@ -79,3 +79,41 @@ main {
     font-size: 12rem;
 }
 
+.lutadores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.personagem {
+    border: .1rem solid black;
+    width: 24rem;
+    height: 37rem;
+    -webkit-transform: skew(-25deg);
+    background-position: center;
+    color: #fff;
+    text-align:center;
+    font-size: 6rem;
+}
+
+#aki {
+    background-image: url(../img/aki.jpg);
+    background-size: 68rem;
+}
+
+#rashid {
+    background-image: url(../img/rashid.webp);
+    background-size: 60rem;
+    background-position: -30rem;
+    background-repeat: no-repeat;
+}
+
+#cammy {
+    background-image: url(../img/cammy.webp);
+    background-size: 60rem;
+    background-position: -71.8rem;
+}
+#lily {
+    background-image: url(../img/Lily.jpg);
+    background-size: 90rem;
+}
+
