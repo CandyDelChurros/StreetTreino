@@ -8,6 +8,7 @@
 }
 html {
     font-size: 62.5%;
+    background: black;
 }
 body {
     font-size: 1.6rem;
@@ -24,8 +25,9 @@ body {
     /* colums mexe na coluna  */
     grid-template-rows: 50px 1fr; 
     /*rolls mexe nas linhas */
-    background-image: url(../img/background.jpg);
-    background-size: cover;
+    background-image:
+    linear-gradient(to top, rgb(0, 0, 0), rgba(59, 59, 59, 0)),
+    url('../img/background.jpg');
 }
 .header {
     display: grid;
@@ -81,11 +83,17 @@ main {
 
 .lutadores {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 128rem;
+    flex-wrap: wrap;
+
 }
 
 .personagem {
     border: .1rem solid black;
+    outline: .1rem solid grey;
+    outline-offset: -.5rem;
     width: 24rem;
     height: 37rem;
     -webkit-transform: skew(-25deg);
@@ -96,24 +104,165 @@ main {
 }
 
 #aki {
-    background-image: url(../img/aki.jpg);
+    background-image: url(../img/aki-hover.png);
     background-size: 68rem;
+}
+#aki:hover {
+    background-image: url(../img/aki.jpg);
 }
 
 #rashid {
-    background-image: url(../img/rashid.webp);
+    background-image: url(../img/rashid-hover.png);
     background-size: 60rem;
     background-position: -30rem;
     background-repeat: no-repeat;
 }
 
+#rashid:hover {
+    background-image: url(../img/rashid.webp);
+}
+
+#lily {
+    background-image: url(../img/lily-hover.png);
+    background-size: 90rem;
+}
+#lily:hover {
+    background-image: url(../img/Lily.jpg);
+
+}
 #cammy {
-    background-image: url(../img/cammy.webp);
+    background-image: url(../img/cammy-hover.png);
     background-size: 60rem;
     background-position: -71.8rem;
 }
-#lily {
-    background-image: url(../img/Lily.jpg);
+
+#cammy:hover {
+    background-image: url(../img/cammy.webp);
+
+}
+
+#zangief {
+    background-image: url(../img/zangief-hover.png);
     background-size: 90rem;
+}
+#zangief:hover {
+    background-image: url(../img/zangief.png);
+
+}
+#jp {
+    background-image: url(../img/jp-hover.png);
+    background-size: 90rem;
+}
+#jp:hover {
+    background-image: url(../img/jp.jpg);
+
+}#marisa {
+    background-image: url(../img/marisa-hover.png);
+    background-size: 90rem;
+}
+#marisa:hover {
+    background-image: url(../img/marisa.jpg);
+
+}#manon {
+    background-image: url(../img/manon-hover.png);
+    background-size: 90rem;
+}
+#manon:hover {
+    background-image: url(../img/manon.jfif);
+
+}#deejay {
+    background-image: url(../img/deejay-hover.png);
+    background-size: 90rem;
+}
+#deejay:hover {
+    background-image: url(../img/deejay.webp);
+
+}#ehonda {
+    background-image: url(../img/honda-hover.png);
+    background-size: 90rem;
+}
+#ehonda:hover {
+    background-image: url(../img/honda.webp);
+
+}
+#dhalsim {
+    background-image: url(../img/dhalsim-hover.png);
+    background-size: 90rem;
+}
+#dhalsim:hover {
+    background-image: url(../img/dhalsim.jpg);
+
+}
+#blanka {
+    background-image: url(../img/blanka-hover.png);
+    background-size: 90rem;
+}
+#blanka:hover {
+    background-image: url(../img/blanka.png);
+
+}
+#ken {
+    background-image: url(../img/ken-hover.png);
+    background-size: 90rem;
+}
+#ken:hover {
+    background-image: url(../img/ken.jpg);
+
+}
+#juri {
+    background-image: url(../img/juri-hover.png);
+    background-size: 90rem;
+}
+#juri:hover {
+    background-image: url(../img/juri.webp);
+
+}
+#kimbery {
+    background-image: url(../img/kimbery-hover.png);
+    background-size: 90rem;
+}
+#kimbery:hover {
+    background-image: url(../img/kimberly.jpg);
+
+}
+#guile {
+    background-image: url(../img/guile-hover.png);
+    background-size: 90rem;
+}
+#guile:hover {
+    background-image: url(../img/guile.jpg);
+
+}
+#chunli {
+    background-image: url(../img/chunli-hover.png);
+    background-size: 90rem;
+}
+#chunli:hover {
+    background-image: url(../img/chunli.webp);
+
+}
+#jamie {
+    background-image: url(../img/jamie-hover.png);
+    background-size: 90rem;
+}
+#jamie:hover {
+    background-image: url(../img/jamie.webp);
+
+}
+#luke {
+    background-image: url(../img/luke-hover.png);
+    background-size: 90rem;
+}
+#luke:hover {
+    background-image: url(../img/Luke.jpg);
+
+}
+#ryu {
+    background-image: url(../img/ryu-hover.png);
+    background-size: 90rem;
+}
+#ryu:hover {
+    background-image: url(../img/ryu.webp);
+
 }
 
