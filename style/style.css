@@ -32,6 +32,8 @@ body {
 .header {
     display: grid;
     grid-template-columns: 37rem 50rem 10fr;
+    border-bottom: .1rem solid rgb(126, 126, 126);
+    box-shadow: 3px 10px 29px -2px rgb(33, 0, 77);
 }
 .logo {
     background-image: url(../img/logo.png);
@@ -46,6 +48,7 @@ body {
     display: flex;
 }
 .hud-cima ul {
+    height: 4.5rem;
     list-style: none;
     display: flex;
     
@@ -66,7 +69,8 @@ body {
 }
 
 .jogar button {
-    height: 4.5rem;
+    height: 3.5rem;
+    width: 10rem;
 }
 
 main {
@@ -143,7 +147,7 @@ main {
 
 #zangief {
     background-image: url(../img/zangief-hover.png);
-    background-size: 90rem;
+    background-size: 65rem;
 }
 #zangief:hover {
     background-image: url(../img/zangief.png);
@@ -151,35 +155,40 @@ main {
 }
 #jp {
     background-image: url(../img/jp-hover.png);
-    background-size: 90rem;
+    background-size: 80rem;
+    background-position-y: .001rem;
+
 }
 #jp:hover {
     background-image: url(../img/jp.jpg);
 
 }#marisa {
     background-image: url(../img/marisa-hover.png);
-    background-size: 90rem;
+    background-size: 70rem;
 }
 #marisa:hover {
     background-image: url(../img/marisa.jpg);
 
 }#manon {
-    background-image: url(../img/manon-hover.png);
-    background-size: 90rem;
+    background-image: url(../img/manon-hover.jpg);
+    background-size: 70rem;
+    background-position-x: -7.3rem;
+    background-position-y: .2rem;
 }
 #manon:hover {
-    background-image: url(../img/manon.jfif);
+    background-image: url(../img/manon.jpg);
 
 }#deejay {
     background-image: url(../img/deejay-hover.png);
-    background-size: 90rem;
+    background-size: 70rem;
 }
 #deejay:hover {
     background-image: url(../img/deejay.webp);
 
 }#ehonda {
     background-image: url(../img/honda-hover.png);
-    background-size: 90rem;
+    background-size: 80rem;
+    background-position-x: -23rem;
 }
 #ehonda:hover {
     background-image: url(../img/honda.webp);
@@ -187,23 +196,26 @@ main {
 }
 #dhalsim {
     background-image: url(../img/dhalsim-hover.png);
-    background-size: 90rem;
+    background-size: 75rem;
+    background-position-x: -31rem;
 }
 #dhalsim:hover {
     background-image: url(../img/dhalsim.jpg);
 
 }
 #blanka {
-    background-image: url(../img/blanka-hover.png);
-    background-size: 90rem;
+    background-image: url(../img/blanka-hover.jpg);
+    background-size: 70rem;
+    background-position-x: -14.5rem;
 }
 #blanka:hover {
-    background-image: url(../img/blanka.png);
+    background-image: url(../img/blanka.jpg);
 
 }
 #ken {
     background-image: url(../img/ken-hover.png);
-    background-size: 90rem;
+    background-size: 68rem;
+    background-position-x: -6.8rem;
 }
 #ken:hover {
     background-image: url(../img/ken.jpg);
@@ -211,7 +223,8 @@ main {
 }
 #juri {
     background-image: url(../img/juri-hover.png);
-    background-size: 90rem;
+    background-size: 68rem;
+    background-position-x: -30rem;
 }
 #juri:hover {
     background-image: url(../img/juri.webp);
@@ -219,7 +232,8 @@ main {
 }
 #kimbery {
     background-image: url(../img/kimbery-hover.png);
-    background-size: 90rem;
+    background-size: 68rem;
+    background-position-x: -25rem;
 }
 #kimbery:hover {
     background-image: url(../img/kimberly.jpg);
@@ -227,7 +241,7 @@ main {
 }
 #guile {
     background-image: url(../img/guile-hover.png);
-    background-size: 90rem;
+    background-size: 80rem;
 }
 #guile:hover {
     background-image: url(../img/guile.jpg);
@@ -235,7 +249,8 @@ main {
 }
 #chunli {
     background-image: url(../img/chunli-hover.png);
-    background-size: 90rem;
+    background-size: 68rem;
+    background-position-x: -38rem;
 }
 #chunli:hover {
     background-image: url(../img/chunli.webp);
@@ -243,7 +258,7 @@ main {
 }
 #jamie {
     background-image: url(../img/jamie-hover.png);
-    background-size: 90rem;
+    background-size: 70rem;
 }
 #jamie:hover {
     background-image: url(../img/jamie.webp);
@@ -251,7 +266,7 @@ main {
 }
 #luke {
     background-image: url(../img/luke-hover.png);
-    background-size: 90rem;
+    background-size: 65rem;
 }
 #luke:hover {
     background-image: url(../img/Luke.jpg);
@@ -259,7 +274,8 @@ main {
 }
 #ryu {
     background-image: url(../img/ryu-hover.png);
-    background-size: 90rem;
+    background-size: 75rem;
+    background-position-x: -20rem;
 }
 #ryu:hover {
     background-image: url(../img/ryu.webp);
