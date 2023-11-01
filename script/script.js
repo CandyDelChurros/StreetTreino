@@ -9,6 +9,8 @@ function aki(){
     document.getElementById("aki").onmouseleave = function(){
         this.style.background = 'url(../img/bg_aki.jpg)';
     }
+    const passion = document.querySelector('audio')
+    passion.play()
 }
 
 function desaperecer(){
